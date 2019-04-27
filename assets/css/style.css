@@ -494,6 +494,11 @@ h3 {
   color: #637588;
 }
 
+p {
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -808,20 +813,27 @@ a {
 .description {
   display: flex;
   background-color: #E5E5E5;
-  padding-top: 110px;
+  padding: 110px 310px 0 310px;
 }
 
 .vertical-line {
   border-right:2px solid #707070; width:2px;
-  height: 300px;
+  height: 150px;
+  margin-top: 180px;
+  opacity: 0.5;
 }
 
 .description-content {
-margin-left: 310px;
+margin-right: 45px;
+}
+.description-conent__title {
+  font-size: 45px;
 }
 
 .description-pictures img{
   max-width: 271px;
+  max-height: 487,08px;
+  margin-left: 40px;
 }
 
 @media (min-width: 993px) {
