@@ -805,6 +805,25 @@ a {
   transition: color 0.5s;
 }
 
+.description {
+  display: flex;
+  background-color: #E5E5E5;
+  padding-top: 110px;
+}
+
+.vertical-line {
+  border-right:2px solid #707070; width:2px;
+  height: 300px;
+}
+
+.description-content {
+margin-left: 310px;
+}
+
+.description-pictures img{
+  max-width: 271px;
+}
+
 @media (min-width: 993px) {
   .skills {
     grid-template-columns: repeat(4, 1fr);
