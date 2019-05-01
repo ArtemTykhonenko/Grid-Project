@@ -630,7 +630,7 @@ a {
 }
 
 .btn-set {
-    /*  */
+    min-width: 350px;
 }
 
 .header {
@@ -799,17 +799,6 @@ a {
     min-width: 350px;
 }
 
-.posts .btn-set {
-    grid-area: bs;
-    padding: 10px 0 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.posts .btn-accent {
-    min-width: 350px;
-}
-
 .skill-item {
     position: relative;
     display: grid;
@@ -958,7 +947,10 @@ a {
 }
 
 .posts-title {
-    margin-left: 83px;
+    margin-left: 95px;
+    margin-top: 114px;
+    color: #2D3651;
+    font-size: 40px;
 }
 
 .posts-item:nth-of-type(1) {
@@ -992,12 +984,13 @@ a {
 }
 
 .posts {
+    padding-bottom: 0;
     margin: 0 83px 0 83px;
     grid-gap: 10px;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "c1 c1 c2 c3" "c4 c5 c6 c6" "bs bs bs bs";
 }
 
@@ -1010,6 +1003,65 @@ a {
     background-size: cover;
     height: 310px;
 }
+
+.post-btn {
+    display: flex;
+    justify-content: center;
+    min-width: 350px;
+    margin-bottom: 100px;
+}
+
+
+footer {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: #2D3651;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+.footer-links a {
+    border: 2px solid #ffffff;
+    margin-right: 30px;
+}
+
+.footer-links :last-child {
+    margin-right: 0;
+}
+
+.footer-line {
+    align-items: center;
+    width: 75px;
+    opacity: 0.5;
+    margin-top: 35px;
+}
+
+.footer-title__opacity {
+    font-family: "Roboto" !important;
+    color: #637588;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.footer-title__bold{
+    font-family: "Roboto" !important;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
 
 @media (min-width: 993px) {
     .skills {
