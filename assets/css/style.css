@@ -898,14 +898,14 @@ a {
 .description {
     display: flex;
     background-color: #E5E5E5;
-    padding: 110px 310px 0 310px;
+    padding: 110px 20% 0 20%;
 }
 
 .vertical-line {
     border-right: 2px solid #707070;
     width: 2px;
-    height: 150px;
-    margin-top: 180px;
+    height: 200px;
+    margin-top: 150px;
     opacity: 0.5;
 }
 
@@ -915,7 +915,7 @@ a {
 }
 
 .description-conent__title {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .description-pictures img {
@@ -927,23 +927,61 @@ a {
 
 .contacts {
     background-color: #2D3651;
-    color: white;
 }
 
 .contacts-form {
     display: flex;
     justify-content: center;
+    padding: 30px 10px 30px 10px;
 }
 
 .contacts-form__item {
     height: 60px;
-    background-color: rgb(77, 77, 78);
-    opacity: 0.5;
-    border: 0;
-    margin: 30px 10px 30px 0;
-    width: 310px;
+    width: 420px;
+    background-color: #38405A;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #4C546B;
+    margin-right: 20px;
+    text-align: left;
+    padding-left: 35px;
+    color: #9DA1AE;
+    font-weight: 400;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.contacts-form__item:hover{
+    color: #ffffff;
+    border-bottom:2px solid #ffffff;
+}
+
+.contacts-form__item:active {
+    color: #ffffff;
+}
+
+.form-btn {
+    height: 60px;
+    width: 420px;
+    background-color: #4C546B;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #797F90;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #ffffff;
     text-align: center;
-    box-shadow: 0px 2px 0px 0px #7a7676;
+}
+
+.form-btn:hover {
+    background-color:#D66926;
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding-bottom: 2px;
+
 }
 
 .posts-title {
@@ -991,17 +1029,23 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "c1 c1 c2 c3" "c4 c5 c6 c6" "bs bs bs bs";
+    grid-template-areas:    "c1 c1 c2 c3"
+                            "c4 c5 c6 c6" 
+                            "bs bs bs bs";
 }
 
 .posts-item {
     text-align: center;
+ 
 }
+
+
 
 .posts-item__pictures {
     background-position: 50% 50%;
     background-size: cover;
     height: 310px;
+    position: auto;
 }
 
 .post-btn {
@@ -1026,13 +1070,22 @@ footer {
     justify-content: center;
 }
 .footer-links a {
-    border: 2px solid #ffffff;
     margin-right: 30px;
 }
+
 
 .footer-links :last-child {
     margin-right: 0;
 }
+
+.fa-facebook-square,
+.fa-google-plus-square,
+.fa-twitter-square,
+.fa-pinterest,
+.fa-youtube {
+    color: white;
+}
+
 
 .footer-line {
     align-items: center;
@@ -1041,15 +1094,16 @@ footer {
     margin-top: 35px;
 }
 
-.footer-title__opacity {
-    font-family: "Roboto" !important;
+.footer-tittle__opacity {
+    font-family: "Roboto";
     color: #637588;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 16px;
+    letter-spacing: 5px;
 }
 
 .footer-title__bold{
-    font-family: "Roboto" !important;
+    font-family: "Roboto";
     color: #ffffff;
     font-weight: bold;
     font-size: 16px;
@@ -1097,6 +1151,33 @@ footer {
         padding-bottom: 14px;
         font-size: 1rem;
     }
+
+    .description {
+        padding: 110px 20px 0 20px;
+    }
+
+    .description-content{
+
+    }
+    
+    .description-conent__title {
+        font-size: 32px;
+    }
+
+    .posts {
+        padding-bottom: 0;
+        margin: 0 83px 0 83px;
+        grid-gap: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "c1 c1 c2"
+                             "c3 c4 c4"
+                             "c5 c5 c6"
+                             "bs bs bs";
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -1131,22 +1212,57 @@ footer {
 
     .contacts-form {
         flex-wrap: wrap;
-
     }
+
     .contacts-form__item:nth-of-type(1){
         flex-grow:2;
-        flex-basis: 768px;
-        
+        flex-basis: 724px;
+        margin-right: 0;
+        margin-bottom: 20px;
     }
     .contacts-form__item:nth-of-type(2){
         flex-grow: 1;
-        
+        flex-basis: 45%;
+        margin-right: 20px;
     }
-    .contacts-form__item:nth-of-type(3){
+    .form-btn:nth-of-type(3){
         flex-grow: 1;
-        
+        flex-basis: 45%;
+
     }
+
+    .description-pictures img {
+        max-width: 236px;
+        max-height: 425px;
+        margin-left: 40px;
+        margin-top: 70px;
+    }
+
+    .description-conent__title {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .posts {
+        padding-bottom: 0;
+        margin: 0 83px 0 83px;
+        grid-gap: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "c1 c2"
+                             "c3 c4"
+                             "c5 c6"
+                             "bs bs";
+    }
+    
 }
+
+
 
 @media (max-width: 576px) {
     .skills {
@@ -1167,5 +1283,72 @@ footer {
     .btn-accent {
         width: 100%;
         margin: 0;
+    }
+
+
+    .contacts-form {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .contacts-form__item:nth-of-type(1){
+        flex-grow:2;
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+
+    }
+    .contacts-form__item:nth-of-type(2){
+        flex-grow: 1;
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .form-btn:nth-of-type(3){
+        flex-grow: 1;
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .vertical-line {
+        display: none;
+    }
+
+    .description-pictures img {
+        max-width: 271px;
+        max-height: 487px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .description-content {
+        margin-right: 20px;
+        margin-bottom: 60px;
+    }
+
+    .posts {
+        padding-bottom: 0;
+        margin: 0 83px 0 83px;
+        grid-gap: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: "c1"
+                             "c2"
+                             "c3"
+                             "c4"
+                             "c5"
+                             "c6"
+                             "bs";
     }
 }
