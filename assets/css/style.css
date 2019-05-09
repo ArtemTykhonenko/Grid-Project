@@ -920,7 +920,7 @@ a {
 
 .description-pictures img {
     max-width: 271px;
-    max-height: 487, 08px;
+    max-height: 487px;
     margin-left: 40px;
     margin-top: 70px;
 }
@@ -1045,7 +1045,6 @@ a {
     background-position: 50% 50%;
     background-size: cover;
     height: 310px;
-    position: auto;
 }
 
 .post-btn {
