@@ -1050,13 +1050,25 @@ a {
     min-height: 300px;
     max-height: 300px;
     object-fit: cover;
+    transition: 0.5s;
+
+  }
+
+  .post-item:hover .post-item__image img {
+            transform: scale(1.1);
   }
 
 .post-item {
     width: 100%;
     background-color: #EEEEEE;
     color: #637588;
+    transition: 0.5s;
+    overflow: hidden;
 }
+
+.post-item:hover {
+    background-color: #d8d8d8;
+  }
 
 .post-item h3 {
     font-family: "Roboto Slab";
@@ -1076,6 +1088,14 @@ a {
     padding-right: 5%;
     padding-bottom: 10%
 }
+
+.post-item:hover h3 {
+    color: #2d3651;
+  }
+  
+  .post-item:hover p {
+    color: #2d3651;
+  }
 
 .post-item__caption {
     /* max-height: 250px; */
