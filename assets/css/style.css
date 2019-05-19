@@ -601,7 +601,6 @@ a {
 .btn,
 .btn-accent {
     display: block;
-    min-width: 250px;
     height: 60px;
     margin: 0 10px;
     padding: 18px 20px;
@@ -928,7 +927,7 @@ a {
     font-family: "Roboto";
 }
 
-.description-conent__title {
+.description-content__title {
     font-size: 40px;
     margin: 60px 0 60px 0;
     padding: 0 0 0 0;
@@ -1145,7 +1144,6 @@ a {
 .post-btn {
     display: flex;
     justify-content: center;
-    min-width: 350px;
     margin-bottom: 100px;
 }
 
@@ -1255,7 +1253,7 @@ footer {
     }
     
     .posts-grid {
-        max-width: 1300px;
+        max-width: 1340px;
         margin: auto;
         display: grid;
         grid-gap: 20px;
@@ -1293,7 +1291,7 @@ footer {
       
     }
     
-    .description-conent__title {
+    .description-content__title {
         font-size: 32px;
     }
     
@@ -1302,6 +1300,11 @@ footer {
         max-height: 487px;
         margin-left: 40px;
         margin-top: 70px;
+    }
+
+    .posts-title {
+        font-size: 32px;
+        margin: 80px 0 45px 0;
     }
 }
 
@@ -1379,7 +1382,7 @@ footer {
       
     }
     
-    .description-conent__title {
+    .description-content__title {
         font-size: 24px;
     }
     
@@ -1396,6 +1399,11 @@ footer {
 
     .contacts-form__item:nth-of-type(1) {
         grid-column: 1 / span 2;
+    }
+
+    .posts-title {
+        margin: 60px 0 35px 0;
+        font-size: 24px;
     }
 
 }
@@ -1468,7 +1476,7 @@ footer {
       
     }
     
-    .description-conent__title {
+    .description-content__title {
         font-size: 24px;
         text-align: center;
     }
@@ -1496,5 +1504,18 @@ footer {
     .form-btn {
         grid-column: 1 / span 2;
     
+    }
+
+    .post-btn {
+        display: flex;
+        justify-content: center;    
+        margin-bottom:50px;
+    }
+
+    .posts-title {
+        padding: 60px 0px 35px 0px;
+        margin: 0;
+        text-align: center;
+        font-size: 24px;
     }
 }
