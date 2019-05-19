@@ -1,9 +1,7 @@
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 
-
 /* Document
        ========================================================================== */
-
 
 /**
      * 1. Correct the line height in all browsers.
@@ -20,10 +18,8 @@ html {
     /* 2 */
 }
 
-
 /* Sections
        ========================================================================== */
-
 
 /**
      * Remove the margin in all browsers (opinionated).
@@ -33,20 +29,13 @@ body {
     margin: 0;
 }
 
-
 /**
      * Add the correct display in IE 9-.
      */
 
-article,
-aside,
-footer,
-header,
-nav,
-section {
+article, aside, footer, header, nav, section {
     display: block;
 }
-
 
 /**
      * Correct the font size and margin on `h1` elements within `section` and
@@ -58,20 +47,16 @@ h1 {
     font-size: 2em;
 }
 
-
 /* Grouping content
        ========================================================================== */
-
 
 /**
      * Add the correct display in IE 9-.
      */
 
-figcaption,
-figure {
+figcaption, figure {
     display: block;
 }
-
 
 /**
      * Add the correct margin in IE 8.
@@ -80,7 +65,6 @@ figure {
 figure {
     margin: 1em 40px;
 }
-
 
 /**
      * 1. Add the correct box sizing in Firefox.
@@ -97,7 +81,6 @@ hr {
     /* 2 */
 }
 
-
 /**
      * Add the correct display in IE.
      */
@@ -105,7 +88,6 @@ hr {
 main {
     display: block;
 }
-
 
 /**
      * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -119,10 +101,8 @@ pre {
     /* 2 */
 }
 
-
 /* Links
        ========================================================================== */
-
 
 /**
      * 1. Remove the gray background on active links in IE 10.
@@ -136,10 +116,8 @@ a {
     /* 2 */
 }
 
-
 /* Text-level semantics
        ========================================================================== */
-
 
 /**
      * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
@@ -156,41 +134,33 @@ abbr[title] {
     /* 2 */
 }
 
-
 /**
      * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
      */
 
-b,
-strong {
+b, strong {
     font-weight: inherit;
 }
-
 
 /**
      * Add the correct font weight in Chrome, Edge, and Safari.
      */
 
-b,
-strong {
+b, strong {
     font-weight: bolder;
 }
-
 
 /**
      * 1. Correct the inheritance and scaling of font size in all browsers.
      * 2. Correct the odd `em` font sizing in all browsers.
      */
 
-code,
-kbd,
-samp {
+code, kbd, samp {
     font-family: monospace, monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */
 }
-
 
 /**
      * Add the correct font style in Android 4.3-.
@@ -199,7 +169,6 @@ samp {
 dfn {
     font-style: italic;
 }
-
 
 /**
      * Add the correct background and color in IE 9-.
@@ -210,7 +179,6 @@ mark {
     background-color: #ffff00;
 }
 
-
 /**
      * Add the correct font size in all browsers.
      */
@@ -219,14 +187,12 @@ small {
     font-size: 80%;
 }
 
-
 /**
      * Prevent `sub` and `sup` elements from affecting the line height in
      * all browsers.
      */
 
-sub,
-sup {
+sub, sup {
     position: relative;
     vertical-align: baseline;
     font-size: 75%;
@@ -241,20 +207,16 @@ sup {
     top: -0.5em;
 }
 
-
 /* Embedded content
        ========================================================================== */
-
 
 /**
      * Add the correct display in IE 9-.
      */
 
-audio,
-video {
+audio, video {
     display: inline-block;
 }
-
 
 /**
      * Add the correct display in iOS 4-7.
@@ -265,7 +227,6 @@ audio:not([controls]) {
     height: 0;
 }
 
-
 /**
      * Remove the border on images inside links in IE 10-.
      */
@@ -273,7 +234,6 @@ audio:not([controls]) {
 img {
     border-style: none;
 }
-
 
 /**
      * Hide the overflow in IE.
@@ -283,21 +243,15 @@ svg:not(:root) {
     overflow: hidden;
 }
 
-
 /* Forms
        ========================================================================== */
-
 
 /**
      * 1. Change the font styles in all browsers (opinionated).
      * 2. Remove the margin in Firefox and Safari.
      */
 
-button,
-input,
-optgroup,
-select,
-textarea {
+button, input, optgroup, select, textarea {
     /* 1 */
     margin: 0;
     font-family: sans-serif;
@@ -308,7 +262,6 @@ textarea {
     /* 2 */
 }
 
-
 /**
      * Show the overflow in IE.
      */
@@ -317,18 +270,15 @@ button {
     overflow: visible;
 }
 
-
 /**
      * Remove the inheritance of text transform in Edge, Firefox, and IE.
      * 1. Remove the inheritance of text transform in Firefox.
      */
 
-button,
-select {
+button, select {
     /* 1 */
     text-transform: none;
 }
-
 
 /**
      * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
@@ -336,29 +286,19 @@ select {
      * 2. Correct the inability to style clickable types in iOS and Safari.
      */
 
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
+button, html [type="button"], [type="reset"], [type="submit"] {
     -webkit-appearance: button;
     /* 2 */
 }
 
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
     padding: 0;
     border-style: none;
 }
 
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
     outline: 1px dotted ButtonText;
 }
-
 
 /**
      * Show the overflow in Edge.
@@ -368,14 +308,12 @@ input {
     overflow: visible;
 }
 
-
 /**
      * 1. Add the correct box sizing in IE 10-.
      * 2. Remove the padding in IE 10-.
      */
 
-[type="checkbox"],
-[type="radio"] {
+[type="checkbox"], [type="radio"] {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     /* 1 */
@@ -383,16 +321,13 @@ input {
     /* 2 */
 }
 
-
 /**
      * Correct the cursor style of increment and decrement buttons in Chrome.
      */
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
-
 
 /**
      * 1. Correct the odd appearance in Chrome and Safari.
@@ -409,11 +344,9 @@ input {
        */
 }
 
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
-
 
 /**
      * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -427,7 +360,6 @@ input {
     /* 2 */
 }
 
-
 /**
      * Correct the padding in Firefox.
      */
@@ -435,7 +367,6 @@ input {
 fieldset {
     padding: 0.35em 0.75em 0.625em;
 }
-
 
 /**
      * 1. Correct the text wrapping in Edge and IE.
@@ -460,7 +391,6 @@ legend {
     /* 1 */
 }
 
-
 /**
      * 1. Add the correct display in IE 9-.
      * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
@@ -473,7 +403,6 @@ progress {
     /* 2 */
 }
 
-
 /**
      * Remove the default vertical scrollbar in IE.
      */
@@ -482,10 +411,8 @@ textarea {
     overflow: auto;
 }
 
-
 /* Interactive
        ========================================================================== */
-
 
 /*
      * Add the correct display in Edge, IE, and Firefox.
@@ -495,7 +422,6 @@ details {
     display: block;
 }
 
-
 /*
      * Add the correct display in all browsers.
      */
@@ -503,7 +429,6 @@ details {
 summary {
     display: list-item;
 }
-
 
 /*
      * Add the correct display in IE 9-.
@@ -513,10 +438,8 @@ menu {
     display: block;
 }
 
-
 /* Scripting
        ========================================================================== */
-
 
 /**
      * Add the correct display in IE 9-.
@@ -526,7 +449,6 @@ canvas {
     display: inline-block;
 }
 
-
 /**
      * Add the correct display in IE.
      */
@@ -535,10 +457,8 @@ template {
     display: none;
 }
 
-
 /* Hidden
        ========================================================================== */
-
 
 /**
      * Add the correct display in IE 10-.
@@ -547,7 +467,6 @@ template {
 [hidden] {
     display: none;
 }
-
 
 /* 
  * Наш код начинается с этого места
@@ -598,8 +517,7 @@ a {
     padding: 0 20px;
 }
 
-.btn,
-.btn-accent {
+.btn, .btn-accent {
     display: block;
     height: 60px;
     margin: 0 10px;
@@ -622,10 +540,7 @@ a {
     background-color: rgba(45, 54, 81, 0.8);
 }
 
-.btn:hover,
-.btn:focus,
-.btn-accent:hover,
-.btn-accent:focus {
+.btn:hover, .btn:focus, .btn-accent:hover, .btn-accent:focus {
     background-color: #d66926;
 }
 
@@ -759,8 +674,7 @@ a {
     transition: color 0.5s;
 }
 
-.header-navbar__item a:hover,
-.header-navbar__item a:focus {
+.header-navbar__item a:hover, .header-navbar__item a:focus {
     color: #d66926;
 }
 
@@ -897,7 +811,6 @@ a {
 
 .description {
     background-color: #E5E5E5;
-
 }
 
 .description-container {
@@ -955,8 +868,6 @@ a {
     grid-template-columns: repeat(3, 1fr);
 }
 
-
-
 .contacts-form__item {
     height: 60px;
     width: 100%;
@@ -976,16 +887,14 @@ a {
     transition: 0.5s;
 }
 
-
-
 .form-btn {
     font-family: "Roboto";
     height: 60px;
     width: 100%;
     background-color: #4C546B;
-    border-top: 2px solid #4C546B ;
-    border-right: 2px solid #4C546B ;
-    border-left: 2px solid #4C546B ;
+    border-top: 2px solid #4C546B;
+    border-right: 2px solid #4C546B;
+    border-left: 2px solid #4C546B;
     border-bottom: 2px solid #797F90;
     font-weight: 400;
     font-size: 18px;
@@ -997,7 +906,7 @@ a {
 }
 
 .form-btn:hover {
-    background-color:#D66926;
+    background-color: #D66926;
     border-top: 2px solid #ffffff;
     border-right: 2px solid #ffffff;
     border-left: 2px solid #ffffff;
@@ -1016,7 +925,7 @@ a {
     color: #ffffff;
 }
 
-.contacts-form__item:hover{
+.contacts-form__item:hover {
     border-top: 2px solid #5E657A;
     border-right: 2px solid #5E657A;
     border-left: 2px solid #5E657A;
@@ -1055,8 +964,7 @@ a {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:    "p1 p1 p2 p3"
-                            "p4 p5 p6 p6";
+    grid-template-areas: "p1 p1 p2 p3" "p4 p5 p6 p6";
 }
 
 .post-item__image img {
@@ -1064,12 +972,11 @@ a {
     height: 300px;
     object-fit: cover;
     transition: 0.5s;
+}
 
-  }
-
-  .post-item:hover .post-item__image img {
-            transform: scale(1.1);
-  }
+.post-item:hover .post-item__image img {
+    transform: scale(1.1);
+}
 
 .post-item {
     width: 100%;
@@ -1081,7 +988,7 @@ a {
 
 .post-item:hover {
     background-color: #d8d8d8;
-  }
+}
 
 .post-item h3 {
     font-family: "Roboto Slab";
@@ -1104,49 +1011,49 @@ a {
 
 .post-item:hover h3 {
     color: #2d3651;
-  }
-  
-  .post-item:hover p {
+}
+
+.post-item:hover p {
     color: #2d3651;
-  }
+}
 
 .post-item__caption {
     /* max-height: 250px; */
 }
 
-
-
 .post-item__image {
     /* width: 100%; */
-    
- 
 }
 
 .post-item:nth-of-type(1) {
     grid-area: p1;
 }
+
 .post-item:nth-of-type(2) {
     grid-area: p2;
 }
+
 .post-item:nth-of-type(3) {
     grid-area: p3;
 }
+
 .post-item:nth-of-type(4) {
     grid-area: p4;
 }
+
 .post-item:nth-of-type(5) {
     grid-area: p5;
 }
+
 .post-item:nth-of-type(6) {
     grid-area: p6;
 }
 
 .post-btn {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 100px; */
 }
-
 
 footer {
     height: 250px;
@@ -1154,36 +1061,30 @@ footer {
     justify-content: center;
     background-color: #2D3651;
     flex-direction: column;
-
 }
 
 .footer-links {
     display: flex;
     justify-content: center;
 }
+
 .footer-links a {
     margin-right: 20px;
     margin-top: 0;
 }
+
 .footer-links i:hover {
     color: #D66926;
 }
-
-
 
 .footer-links :last-child {
     margin-right: 0;
 }
 
-.fa-facebook-square,
-.fa-google-plus-square,
-.fa-twitter-square,
-.fa-pinterest,
-.fa-youtube {
+.fa-facebook-square, .fa-google-plus-square, .fa-twitter-square, .fa-pinterest, .fa-youtube {
     color: white;
     font-size: 35px;
 }
-
 
 .footer-line {
     align-items: center;
@@ -1202,7 +1103,7 @@ footer {
     letter-spacing: 5px;
 }
 
-.footer-title__bold{
+.footer-title__bold {
     font-family: "Roboto";
     color: #ffffff;
     font-weight: bold;
@@ -1213,31 +1114,19 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
 }
-
 
 @media (min-width: 993px) {
     .skills {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-areas:    
-                                "a1 a1 a2 a3"
-                                "a4 a5 a5 a6"
-                                "a7 a8 a9 a6"
-                                "bs bs bs bs";
+        grid-template-areas: "a1 a1 a2 a3" "a4 a5 a5 a6" "a7 a8 a9 a6" "bs bs bs bs";
     }
 }
 
 @media (max-width: 992px) {
     .skills {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-                             "a1 a1 a2"
-                             "a3 a4 a4"
-                             "a5 a5 a6"
-                             "a7 a8 a6" 
-                             "a7 a9 a9"
-                             "bs bs bs";
+        grid-template-areas: "a1 a1 a2" "a3 a4 a4" "a5 a5 a6" "a7 a8 a6" "a7 a9 a9" "bs bs bs";
     }
     .header-title {
         margin: 0 0 43px;
@@ -1251,32 +1140,24 @@ footer {
         padding-bottom: 14px;
         font-size: 1rem;
     }
-    
     .posts-grid {
         max-width: 1340px;
         margin: auto;
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-areas:    "p1 p1 p2"
-                                "p3 p4 p4"
-                                "p5 p5 p6";
+        grid-template-areas: "p1 p1 p2" "p3 p4 p4" "p5 p5 p6";
     }
-
     /* DESCRIPTION */
-
     .description {
         background-color: #E5E5E5;
-    
     }
-    
     .description-container {
         display: flex;
         justify-content: center;
         padding-top: 60px;
         padding-bottom: 100px
     }
-    
     .vertical-line {
         border-right: 2px solid #C5C5C5;
         width: 2px;
@@ -1284,24 +1165,19 @@ footer {
         margin-top: 150px;
         opacity: 0.5;
     }
-    
     .description-content {
         max-width: 970px;
         padding: 0 20px 0 20px;
-      
     }
-    
     .description-content__title {
         font-size: 32px;
     }
-    
     .description-pictures img {
         max-width: 271px;
         max-height: 487px;
         margin-left: 40px;
         margin-top: 70px;
     }
-
     .posts-title {
         font-size: 32px;
         margin: 80px 0 45px 0;
@@ -1337,32 +1213,24 @@ footer {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
     .posts-grid {
         max-width: 1300px;
         margin: auto;
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:    "p1 p2"
-                                "p3 p4"
-                                "p5 p6";
+        grid-template-areas: "p1 p2" "p3 p4" "p5 p6";
     }
-
     /* DESCRIPTION */
-
     .description {
         background-color: #E5E5E5;
-    
     }
-    
     .description-container {
         display: flex;
         justify-content: center;
         padding-top: 60px;
         padding-bottom: 100px
     }
-    
     .vertical-line {
         border-right: 2px solid #C5C5C5;
         width: 2px;
@@ -1370,45 +1238,33 @@ footer {
         margin-top: 150px;
         opacity: 0.5;
     }
-    
     .description-content {
         max-width: 970px;
         padding: 0 20px 0 20px;
-      
     }
-
     .description-content p {
         font-size: 16px;
-      
     }
-    
     .description-content__title {
         font-size: 24px;
     }
-    
     .description-pictures img {
         max-width: 236px;
         max-height: 425px;
         margin-left: 40px;
         margin-top: 70px;
     }
-
     .contacts-form {
         grid-template-columns: 1fr 1fr;
     }
-
     .contacts-form__item:nth-of-type(1) {
         grid-column: 1 / span 2;
     }
-
     .posts-title {
         margin: 60px 0 35px 0;
         font-size: 24px;
     }
-
 }
-
-
 
 @media (max-width: 576px) {
     .skills {
@@ -1430,28 +1286,18 @@ footer {
         width: 100%;
         margin: 0;
     }
-
     .posts-grid {
         max-width: 1300px;
         margin: auto;
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-areas:    "p1"
-                                "p2"
-                                "p3"
-                                "p4"
-                                "p5"
-                                "p6";
+        grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6";
     }
-
     /* description */
-
     .description {
         background-color: #E5E5E5;
-    
     }
-    
     .description-container {
         display: flex;
         flex-direction: column;
@@ -1459,63 +1305,51 @@ footer {
         padding-top: 0px;
         padding-bottom: 0px
     }
-    
     .vertical-line {
-         display: none;
+        display: none;
     }
-    
     .description-content {
         max-width: 970px;
         padding: 0 20px 0 20px;
-        
-      
     }
-
     .description-content p {
         font-size: 16px;
-      
     }
-    
     .description-content__title {
         font-size: 24px;
         text-align: center;
     }
-    
     .description-pictures img {
         max-width: 271px;
         max-height: 487px;
         margin: 30px 0 60px 0;
         padding: 0 0 0 0;
     }
-
     .contacts-form {
         grid-template-columns: 1fr 1fr;
     }
-
     .contacts-form__item:nth-of-type(1) {
         grid-column: 1 / span 2;
- 
     }
-
     .contacts-form__item:nth-of-type(2) {
         grid-column: 1 / span 2;
- 
     }
     .form-btn {
         grid-column: 1 / span 2;
-    
     }
-
     .post-btn {
-        display: flex;
-        justify-content: center;    
-        margin-bottom:50px;
+        margin-bottom: 50px;
     }
-
     .posts-title {
         padding: 60px 0px 35px 0px;
         margin: 0;
         text-align: center;
         font-size: 24px;
+    }
+    .skills {
+        display: grid;
+        grid-gap: 10px;
+        padding: 10px;
+        max-width: 100%;
     }
 }
