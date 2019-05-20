@@ -1050,9 +1050,9 @@ a {
 }
 
 .post-btn {
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    margin-bottom: 100px; */
+    margin-bottom: 100px;
 }
 
 footer {
@@ -1338,6 +1338,7 @@ footer {
         grid-column: 1 / span 2;
     }
     .post-btn {
+        display: block;
         margin-bottom: 50px;
     }
     .posts-title {
