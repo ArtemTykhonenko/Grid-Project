@@ -1287,7 +1287,7 @@ footer {
         margin: 0;
     }
     .posts-grid {
-        max-width: 1300px;
+        max-width: 1340px;
         margin: auto;
         display: grid;
         grid-gap: 20px;
@@ -1349,8 +1349,11 @@ footer {
     }
     .skills {
         display: grid;
-        grid-gap: 10px;
-        padding: 10px;
+        padding: 20px;
         max-width: 100%;
+    }
+
+    .skill-item {
+        min-height: calc(230px - 20px * 0.66);
     }
 }
